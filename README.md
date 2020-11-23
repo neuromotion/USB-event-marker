@@ -2,11 +2,19 @@
 
 Use an arduino-compatible `Teensy 3.2` board to output 8-channel digital event markers from a computer to a data acquisition system. When the board receives an event code, one or more of the 8 pins will output a short pulse simultaneously. The different combinations of 8 pins can encode 255 distinct event codes in binary, for identifying different types of events.
 
-In the Cube, as of 12/2018, only the first 5 output pins are connected to OpenEphys analog input channels. That means that only the numbers in the range [1, 31] are valid event codes.
+As of 12/2018, only the first 5 output pins are connected to OpenEphys analog input channels. That means that only the numbers in the range [1, 31] are valid event codes.
 
 This repository contains:
 
 - Firmware for the `Teensy 3.2` board, which will listen for events over the USB serial connection. 
+
+- Eagle schematic showing how to connect the 5 teensy output pins to an RJ45 (ethernet) jack (that can then be broken out to the analog inputs on any electrophysiology rig)
+
+- Eagle schematic showing how to connect a photodiode to an RJ45 (ethernet) jack (that can then be broken out to the analog input on any electrophysiology rig)
+
+- 3D schematics of a case (bottom and top) to hold the teensy and RJ45 jack
+
+- 3D schematic of a case to hold the photodiode
 
 - `find_event_marker_port.py`: A python script for finding the path to your USB Event Marker's serial port, configuring it using `stty`, and then printing the path to it. Other programs can run this script to get the path, and then writing single-byte event codes to it as if it was a normal binary file. 
 
