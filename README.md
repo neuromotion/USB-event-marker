@@ -33,6 +33,7 @@ This repository contains:
 - Photodiode (OPT101PG4): https://www.digikey.com/en/products/detail/texas-instruments/OPT101PG4/1899803
 - RJ45 jack: https://www.sparkfun.com/products/8534
 - RJ45 breakout: https://www.sparkfun.com/products/716
+- monitor clip: https://www.amazon.com/COOK-COLOR-Black-Magnetic-Plastic/dp/B07CZ3ZYSX/
 
 ## Installation
 
