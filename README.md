@@ -20,6 +20,19 @@ This repository contains:
 
 - `example.py`:  An example python script for sending events to the USB Event Marker, by opening it as a binary file. 
 
+## Shopping list
+
+### Event Marker
+
+- teensyduino 3.2 board: https://www.sparkfun.com/products/13736
+- RJ45 jack: https://www.sparkfun.com/products/8534
+- RJ45 breakout: https://www.sparkfun.com/products/716
+
+### Photodiode
+
+- Photodiode (OPT101PG4): https://www.digikey.com/en/products/detail/texas-instruments/OPT101PG4/1899803
+- RJ45 jack: https://www.sparkfun.com/products/8534
+- RJ45 breakout: https://www.sparkfun.com/products/716
 
 ## Installation
 
